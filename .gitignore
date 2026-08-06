@@ -1,0 +1,32 @@
+# Flutter/Dart 构建产物
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+*.keystore
+*.jks
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS/macOS
+ios/Flutter/ephemeral/
+ios/Pods/
+macos/Flutter/ephemeral/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 其他
+*.iml
+.idea/
+.vscode/
+*.log
+.DS_Store
